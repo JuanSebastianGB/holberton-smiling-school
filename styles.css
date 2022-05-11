@@ -1,0 +1,41 @@
+:root {
+    --color-purple: #c273fc;
+    --color-white : #f4f1f1;
+
+    --main-color     : var(--color-white);
+    --secondary-color: var(--color-purple);
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    background     : url('./images/pic_1.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.text-purple {
+    color: var(--secondary-color);
+}
+
+.text-responsive {
+    font-size: 10vw;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-32 {
+    font-size: 2rem;
+}
+
+.contract-spacing {
+    letter-spacing: -.1rem;
+}
+
+.color-button-purple {
+    background-color: var(--secondary-color);
+    box-shadow      : 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
