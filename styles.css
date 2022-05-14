@@ -148,3 +148,34 @@ footer [class*='holberton_school-icon-ic_'] {
     border       : 0;
     border-top   : 1px solid var(--color-gray);
 }
+
+/** Custom classes for courses **/
+
+.header-course {
+    background     : url('./images/pic_3.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+.font-family-coiny {
+    font-family: coiny;
+}
+
+.header-course .nav-item:hover a {
+    color: var(--secondary-color) !important;
+}
+
+.header-course .underline {
+    position: relative;
+}
+
+.header-course .underline:hover:after {
+    content         : '';
+    position        : absolute;
+    background-color: white;
+    display         : block;
+    margin          : 10px auto 0;
+    height          : 2px;
+    width           : 80%;
+    border-radius   : 3px;
+    opacity         : 0.5;
+}
