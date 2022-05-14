@@ -1,9 +1,11 @@
 :root {
     --color-purple: #c273fc;
     --color-white : #f4f1f1;
+    --color-black : #071629;
 
     --main-color     : var(--color-white);
     --secondary-color: var(--color-purple);
+    --arrow-color    : var(--color-black);
 }
 
 body {
@@ -21,6 +23,10 @@ body {
 
 .text-responsive {
     font-size: 10vw;
+}
+
+.font-size-14 {
+    font-size: 14px;
 }
 
 .font-size-18 {
@@ -46,6 +52,20 @@ body {
 
 [class*='holberton_school-icon-arrow'] {
     font-size  : 6rem;
-    font-weight: 700;
-    ;
+    font-weight: 400;
+    color      : var(--arrow-color);
+}
+
+.quote-section [class*='holberton_school-icon-arrow'] {
+    color: var(--main-color);
+}
+
+.video-card-control {
+    width : 255px;
+    height: 355px;
+}
+
+.play-icon-position {
+    margin-top : -7rem;
+    margin-left: 5.5rem;
 }
