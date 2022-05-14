@@ -240,3 +240,10 @@ button:not(:disabled) {
 .dropdown-item:hover {
     color: var(--secondary-color);
 }
+
+/** Custom classes for results section **/
+
+.results-section .card {
+    padding: 1.2rem;
+    border : none;
+}
