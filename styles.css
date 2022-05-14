@@ -1,9 +1,10 @@
 :root {
-    --color-purple: #c273fc;
-    --color-white : #f4f1f1;
-    --color-black : #071629;
-    --color-green : #82D24F;
-    --color-gray  : #979797;
+    --color-purple      : #c273fc;
+    --color-purple-light: #cb8bf9;
+    --color-white       : #f4f1f1;
+    --color-black       : #071629;
+    --color-green       : #82D24F;
+    --color-gray        : #979797;
 
 
     --main-color      : var(--color-white);
@@ -178,4 +179,64 @@ footer [class*='holberton_school-icon-ic_'] {
     width           : 80%;
     border-radius   : 3px;
     opacity         : 0.5;
+}
+
+/** Custom classes for icon search **/
+
+.icon-search {
+    font-size       : 25px;
+    background-color: var(--color-purple-light);
+    margin          : 10px 0 0 10px;
+    padding-right   : 5px;
+}
+
+.filter-section .input-group {
+    background-color: var(--color-purple-light);
+    height          : 50px;
+}
+
+.filter-section .input-group input {
+    background: transparent;
+    color     : var(--main-color);
+    margin-top: 5px;
+}
+
+
+.filter-section input::placeholder,
+.filter-section .dropdown {
+    color    : var(--main-color);
+    font-size: 23px;
+}
+
+.filter-section .dropdown {
+    width : 100%;
+    height: 30px;
+    border: none;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-spacing {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 0.5rem;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    padding-bottom: 6px;
+}
+
+.dropdown .dropdown-menu {
+    background-color: white;
+    opacity         : 2;
+}
+
+.dropdown-item:hover {
+    color: var(--secondary-color);
 }
