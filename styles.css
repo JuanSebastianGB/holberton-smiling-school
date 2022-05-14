@@ -13,9 +13,26 @@ body {
 }
 
 .header {
-    background     : url('./images/pic_1.jpg') top center no-repeat;
+    background     : url('./images/pic_2.jpg') top center no-repeat;
     background-size: cover;
 }
+
+.smile-off {
+    background     : url('./images/smile_off.png') center no-repeat;
+    background-size: cover;
+    width          : 37px;
+    height         : 30px;
+    display        : blocK;
+}
+
+.smile-on {
+    background     : url('./images/smile_on.png') center no-repeat;
+    background-size: cover;
+    width          : 37px;
+    height         : 30px;
+    display        : inline;
+}
+
 
 .text-purple {
     color: var(--secondary-color);
@@ -35,6 +52,10 @@ body {
 
 .font-size-32 {
     font-size: 2rem;
+}
+
+.font-size-60 {
+    font-size: 60px;
 }
 
 .contract-spacing {
@@ -93,4 +114,12 @@ footer [class*='holberton_school-icon-ic_'] {
     width    : 30px;
     height   : 30px;
     font-size: 2rem;
+}
+
+
+/** Custom classes for price **/
+
+.header-price {
+    background     : url('./images/pic_2.jpg') top center no-repeat;
+    background-size: cover;
 }
