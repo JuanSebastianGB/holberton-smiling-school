@@ -69,3 +69,13 @@ body {
     margin-top : -7rem;
     margin-left: 5.5rem;
 }
+
+.free-membership {
+    background: var(--color-black);
+    color     : var(--main-color);
+}
+
+.cad-membership__logo {
+    height: 36px;
+    width : 45px;
+}
